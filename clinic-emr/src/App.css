@@ -1,0 +1,90 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  width: 100vw; 
+  height: 100vh; 
+  background-color: rgb(255, 248, 233);
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+.login main {
+  width:85%;
+  height:85%;
+  border-radius: .5em;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  background-color: white;
+  box-shadow: 2px 2px 4px 3px rgba(0,0,0,0.5);
+}
+
+.login form {
+  width: 300px;
+  padding: 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form section  {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+aside  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+aside input  {
+  background-color: transparent;
+  accent-color: black;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(166, 166, 166);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: .1em;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.log {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  place-content: center;
+  padding:  10px 0px;
+  margin-top: 30px;
+  background-color: rgb(88, 63, 250) ;
+  border-radius: .1em;
+  transition: all .3s ease-in-out;
+}
+
+.log:hover {
+  background-color:rgb(74, 54, 203) ;
+  box-shadow: 0px 3px 2px 2px rgba(0,0,0,0.5);
+}
